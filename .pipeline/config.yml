@@ -66,11 +66,11 @@ stages:
 #      - alias: 'mySystemAlias'
 #        credentialId: 'mySystemCredentialsId'
 
-#  Release:
-#    cfTargets:
-#      - org: 'cw05CL'
-#        space: 'dev'
-#        apiEndpoint: 'https://api.cf.sap.hana.ondemand.com'
-#        appName: 'myAppName'
-#        manifest: 'manifest.yml'
-#        credentialsId: 'global'
+Release:
+   cfTargets:
+     - org: 'cw05CL'
+       space: 'dev'
+       apiEndpoint: 'https://api.cf.sap.hana.ondemand.com'
+       appName: 'myAppName'
+       manifest: 'manifest.yml'
+       credentialsId: 'global'
